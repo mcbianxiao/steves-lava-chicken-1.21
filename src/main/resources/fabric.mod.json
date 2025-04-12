@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "steves-lava-chicken",
+	"version": "${version}",
+	"name": "steves-lava-chicken",
+	"description": "这是由 mcbianxiao 开发的一款还原《我的世界大电影》中的'熔岩烤鸡'模组",
+	"authors": [
+		"mcbianxiao"
+	],
+	"contact": {
+		"homepage": "https://github.com/mcbianxiao/",
+		"sources": "https://github.com/mcbianxiao/**修改我！！！！！！！！！！！！！！**"
+	},
+	"license": "LGPL-3",
+	"icon": "assets/steves-lava-chicken/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"cn.minebian.slc.Steveslavachicken"
+		],
+		"fabric-datagen": [
+			"cn.minebian.slc.SteveslavachickenDataGenerator"
+		],
+		"client": [
+			"cn.minebian.slc.SteveslavachickenClient"
+		]
+	},
+	"mixins": [
+		"steves-lava-chicken.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.13",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

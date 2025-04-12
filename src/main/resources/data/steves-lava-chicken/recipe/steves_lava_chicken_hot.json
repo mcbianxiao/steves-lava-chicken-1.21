@@ -1,0 +1,16 @@
+
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "minecraft:chicken" },
+    { "item": "minecraft:lava_bucket" }
+  ],
+  "result": {
+    "item": "steves-lava-chicken:steves_lava_chicken_hot",
+    "id": "steves-lava-chicken:steves_lava_chicken_hot",
+    "count": 1
+  },
+  "remainders": [
+    { "item": "minecraft:bucket" }
+  ]
+}
